@@ -37,9 +37,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        <nav
-          className={"px-2 pt-2 pb-4 sm:p-0 sm:flex " + (isOpen ? "block" : "hidden")}
-        >
+        <div className="px-2 pt-2 pb-4 sm:p-0 sm:block hidden">
           <a
             href="#"
             className="block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800"
@@ -58,7 +56,7 @@ const Navbar = () => {
           >
             Blog
           </a>
-        </nav>
+        </div>
       </header>
     </div>
   );
