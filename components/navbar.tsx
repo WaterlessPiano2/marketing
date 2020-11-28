@@ -14,7 +14,7 @@ const Navbar = () => {
               alt="Workcation"
             />
           </div>
-          <div className="">
+          <div className="sm:hidden">
             <button
               type="button"
               className="block text-gray-500 hover:text-white focus:text-white focus:outline-none"
@@ -36,28 +36,29 @@ const Navbar = () => {
             </button>
           </div>
         </div>
-        {isOpen && (
-          <div className={`px-2 pt-2 pb-4 ${isOpen ? "block" : "hidden"}`}>
-            <a
-              href="#"
-              className="block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800"
-            >
-              Services
-              </a>
-            <a
-              href="#"
-              className="mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 sm:mt-0 sm:ml-2"
-            >
-              About
-            </a>
-            <a
-              href="#"
-              className="mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 sm:mt-0 sm:ml-2"
-            >
-              Blog
-            </a>
-          </div>
-        )}
+
+        <nav
+          className={"px-2 pt-2 pb-4 sm:p-0 sm:flex " + (isOpen ? "block" : "hidden")}
+        >
+          <a
+            href="#"
+            className="block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800"
+          >
+            Services
+          </a>
+          <a
+            href="#"
+            className="mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 sm:mt-0 sm:ml-2"
+          >
+            About
+          </a>
+          <a
+            href="#"
+            className="mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 sm:mt-0 sm:ml-2"
+          >
+            Blog
+          </a>
+        </nav>
       </header>
     </div>
   );
