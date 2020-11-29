@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React, { useState } from "react";
 
 const Navbar = () => {
@@ -5,19 +6,21 @@ const Navbar = () => {
 
   return (
     <div>
-      <header className="bg-gray-900 sm:flex sm:justify-between sm:items-center sm:px-4 sm:py-3">
+      <header className="bg-gradient-to-r from-green-400 to-blue-500 mb-5 sm:flex sm:justify-between sm:items-center sm:px-4 sm:py-3">
         <div className="flex items-center px-4 py-3 sm:p-0 justify-between">
-          <div>
-            <img
-              className="h-8"
-              src="/img/logo-inverted.svg"
-              alt="Workcation"
-            />
-          </div>
+          <h2 className="text-2xl md:text-4xl font-bold tracking-tight md:tracking-tighter leading-tight">
+            <Link href="/">
+              <a>
+                <div className="font-bold tracking-tighter leading-tight md:pr-8">
+                  <span className="text-gray-100">Agile import</span>
+                </div>
+              </a>
+            </Link>
+          </h2>
           <div className="sm:hidden">
             <button
               type="button"
-              className="block text-gray-500 hover:text-white focus:text-white focus:outline-none"
+              className="block text-gray-200 hover:text-white focus:text-white rounded hover:bg-green-500 focus:outline-none"
               onClick={() => setisOpen(!isOpen)}
             >
               <svg className="h-6 w-6 fill-current" viewBox="0 0 24 24">
@@ -38,23 +41,25 @@ const Navbar = () => {
         </div>
 
         <nav
-          className={`px-2 pt-2 pb-4 sm:p-0 sm:flex ${isOpen ? "block" : "hidden"}`}
+          className={`px-2 pt-2 pb-4 sm:p-0 sm:flex ${
+            isOpen ? "block" : "hidden"
+          }`}
         >
           <a
             href="#"
-            className="block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800"
+            className="block px-2 py-1 text-white font-semibold rounded sm:hover:bg-green-500 hover:bg-blue-500"
           >
             Services
           </a>
           <a
             href="#"
-            className="mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 sm:mt-0 sm:ml-2"
+            className="mt-1 block px-2 py-1 text-white font-semibold rounded sm:hover:bg-green-500 hover:bg-blue-500 sm:mt-0 sm:ml-2"
           >
             About
           </a>
           <a
             href="#"
-            className="mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 sm:mt-0 sm:ml-2"
+            className="mt-1 block px-2 py-1 text-white font-semibold rounded sm:hover:bg-green-500 hover:bg-blue-500 sm:mt-0 sm:ml-2"
           >
             Blog
           </a>
