@@ -13,7 +13,7 @@ const About = () => {
       <Layout>
         <Container>
           <Intro />
-          <h1>About</h1>
+          <h1>Services</h1>
         </Container>
       </Layout>
     </>
