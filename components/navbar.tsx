@@ -46,13 +46,13 @@ const Navbar = () => {
           }`}
         >
           <a
-            href="#"
+            href="/services"
             className="block px-2 py-1 text-white font-semibold rounded sm:hover:bg-green-500 hover:bg-blue-500"
           >
             Services
           </a>
           <a
-            href="#"
+            href="/about"
             className="mt-1 block px-2 py-1 text-white font-semibold rounded sm:hover:bg-green-500 hover:bg-blue-500 sm:mt-0 sm:ml-2"
           >
             About
