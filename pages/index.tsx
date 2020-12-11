@@ -23,9 +23,6 @@ const Index = () => {
               <h1 className="sm:text-3xl text-2xl font-medium title-font text-center text-gray-800 mb-20">
                 Customs Declaration System for UK traders.
                 <br className="block" />
-                <span className="sm:text-2xl text-xl text-gray-600">
-                  Launching in early April 2021
-                </span>
               </h1>
               <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
                 <div className="p-4  lg:w-1/3 md:mb-0 mb-6 flex">
