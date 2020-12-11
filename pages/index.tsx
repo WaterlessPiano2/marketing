@@ -80,7 +80,7 @@ const Index = () => {
                       that is available to you wherever you are.
                       <br className="hidden sm:block" />
                       Use your laptop, tablet or smartphone to access this
-                      platform
+                      platform.
                     </p>
                   </div>
                 </div>
