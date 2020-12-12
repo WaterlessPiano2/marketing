@@ -4,9 +4,7 @@ export default class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
-        <Head>
-          <title>Agile Import</title>
-        </Head>
+        <Head />
         <body>
           <Main />
           <NextScript />

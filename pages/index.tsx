@@ -7,7 +7,7 @@ const Index = () => {
   return (
     <>
       <Head>
-        <title>Agile Import - Services</title>
+        <title>Agile Import - Home</title>
       </Head>
       <Layout>
         <Container>
@@ -30,9 +30,9 @@ const Index = () => {
                     <svg
                       fill="none"
                       stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strlinecapoke-="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       className="w-6 h-6"
                       viewBox="0 0 24 24"
                     >
@@ -57,9 +57,9 @@ const Index = () => {
                     <svg
                       fill="none"
                       stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       className="w-6 h-6"
                       viewBox="0 0 24 24"
                     >
@@ -86,9 +86,9 @@ const Index = () => {
                     <svg
                       fill="none"
                       stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       className="w-6 h-6"
                       viewBox="0 0 24 24"
                     >
