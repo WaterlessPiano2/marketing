@@ -12,12 +12,22 @@ const Index = () => {
       <Layout>
         <Container>
           <section className="text-gray-700 body-font">
-            <div className="container mx-auto flex px-5 pt-12 items-center justify-center flex-col">
+            <div className="container mx-auto  flex pt-12 items-center justify-center flex-col">
               <img
-                className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded"
+                className="lg:w-2/6 md:w-3/6 w-5/6 mb-2 object-cover object-center rounded"
                 alt="hero"
-                src="https://dummyimage.com/720x600"
+                src="/assets/home/boat.jpg"
               />
+              <p className="text-xs text-gray-500">
+                Photo by{" "}
+                <a href="https://unsplash.com/@ronan18?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">
+                  Ronan Furuta
+                </a>{" "}
+                on{" "}
+                <a href="https://unsplash.com/s/photos/port?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">
+                  Unsplash
+                </a>
+              </p>
             </div>
             <div className="container px-5 py-12 mx-auto">
               <h1 className="sm:text-3xl text-2xl font-medium title-font text-center text-gray-800 mb-20">
