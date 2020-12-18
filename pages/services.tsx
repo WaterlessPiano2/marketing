@@ -1,7 +1,6 @@
 import Head from "next/head";
 import React from "react";
 import Container from "../components/container";
-import Intro from "../components/intro";
 import Layout from "../components/layout";
 
 const About = () => {
@@ -12,7 +11,7 @@ const About = () => {
       </Head>
       <Layout>
         <Container>
-          <div className="py-12 bg-white">
+          <div className="py-12">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="lg:text-center">
                 <h1 className="text-base text-green-600 font-semibold tracking-wide uppercase">
