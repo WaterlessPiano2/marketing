@@ -21,9 +21,9 @@ const About = () => {
                   A better way to declare customs
                 </p>
                 <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-                  If you have been trading goods between UK and EU, after Brexit
-                  you will have to declare customs on all of your trade. We are
-                  here to make this easier for you.
+                  If you have been trading goods between the UK and the EU,
+                  after Brexit you will have to declare customs on all of your
+                  trade. We are here to make this easier for you.
                 </p>
               </div>
 
@@ -54,9 +54,9 @@ const About = () => {
                         Software as a Service (SaaS)
                       </dt>
                       <dd className="mt-2 text-base text-gray-500">
-                        Compared to building your own software inhouse, using
-                        our SaaS is cheaper in the short and long term for you.
-                        You can offload the responsibility of implementing and
+                        Compared to building your software inhouse, using our
+                        SaaS is cheaper in the short and long term for you. You
+                        can offload the responsibility of implementing and
                         maintaining the compliance and the technicality of the
                         software to us.
                       </dd>
@@ -120,9 +120,9 @@ const About = () => {
                         Instant help
                       </dt>
                       <dd className="mt-2 text-base text-gray-500">
-                        In order to crete this customs declaration software, we
-                        had to be proffesionally trained in the process. We will
-                        make all our notes available to our customers for making{" "}
+                        To create this customs declaration software, we had to
+                        be professionally trained in the process. We will make
+                        all our notes available to our customers for making.
                       </dd>
                     </div>
                   </div>
@@ -152,12 +152,12 @@ const About = () => {
                         Audit ready
                       </dt>
                       <dd className="mt-2 text-base text-gray-500">
-                        In order for the HMRC to audit your customs declarations
-                        they may need access to all of your customs declaration
-                        data for the past 10 years. We will keep this data safe
-                        for you backed up in multipe cloud locations. If you
-                        decide to leave us later you can, you can export this
-                        data for your own records.
+                        In order for the HMRC to audit your customs
+                        declarations, they may need access to all of your
+                        customs declaration data for the past 10 years. We will
+                        keep this data safe for you, backed up in multiple cloud
+                        locations. If you decide to leave us later, you can
+                        export this data for your own records.
                       </dd>
                     </div>
                   </div>
