@@ -4,7 +4,7 @@ excerpt: "In this article I will explain how Brexit will affect importers and ex
 coverImage: "/assets/blog/dynamic-routing/cover.jpg"
 date: "2020-12-22"
 author:
-  name: Chad Derya
+  name: Salih Chad Derya
   picture: "/assets/blog/authors/jj.jpeg"
 ogImage:
   url: "/assets/blog/dynamic-routing/cover.jpg"
