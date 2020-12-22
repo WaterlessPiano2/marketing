@@ -13,6 +13,7 @@ const Index = () => {
         <Container>
           <section className="text-gray-700 body-font">
             <div className="container mx-auto  flex pt-12 items-center justify-center flex-col">
+              <Intro pageName={"A better way to declare customs!"} />
               <img
                 className="lg:w-2/6 md:w-3/6 w-5/6 mb-2 object-cover object-center rounded"
                 alt="hero"
