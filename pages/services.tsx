@@ -2,6 +2,7 @@ import Head from "next/head";
 import { useRouter } from "next/router";
 import React from "react";
 import Container from "../components/container";
+import Intro from "../components/intro";
 import Layout from "../components/layout";
 import getPageName from "../utils/string";
 
@@ -15,12 +16,10 @@ const About = () => {
       </Head>
       <Layout>
         <Container>
-          <div className="py-12">
+          <div className="pt-12 pb-40">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="lg:text-center">
-                <Head>
-                  <title>{`Agile Import - ${pageName}`}</title>
-                </Head>
+                <Intro pageName={pageName} />
                 <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
                   A better way to declare customs
                 </p>

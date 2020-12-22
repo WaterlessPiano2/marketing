@@ -6,6 +6,8 @@ import Layout from "../components/layout";
 import { getAllPosts } from "../lib/api";
 import Head from "next/head";
 import Post from "../types/post";
+import { useRouter } from "next/router";
+import getPageName from "../utils/string";
 
 type Props = {
   allPosts: Post[];
@@ -14,14 +16,16 @@ type Props = {
 const Blog = ({ allPosts }: Props) => {
   const heroPost = allPosts[0];
   const morePosts = allPosts.slice(1);
+  const router = useRouter();
+  let pageName = getPageName(router.pathname);
   return (
     <>
       <Head>
-        <title>Agile Import</title>
+        <title>{`Agile Import - ${pageName}`}</title>
       </Head>
       <Layout>
         <Container>
-          <Intro />
+          <Intro pageName={pageName} />
           {heroPost && (
             <HeroPost
               title={heroPost.title}

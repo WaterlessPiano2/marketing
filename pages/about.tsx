@@ -4,6 +4,7 @@ import Container from "../components/container";
 import Layout from "../components/layout";
 import { useRouter } from "next/router";
 import getPageName from "../utils/string";
+import Intro from "../components/intro";
 
 const About = () => {
   const router = useRouter();
@@ -18,9 +19,8 @@ const About = () => {
           <div className="py-12">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="lg:text-center">
-                <h1 className="text-base text-green-600 font-semibold tracking-wide uppercase">
-                  {pageName}
-                </h1>
+                <Intro pageName={pageName} />
+
                 <div className="py-6">
                   <h1 className="mt-2 text-2xl leading-8 font-extrabold tracking-tight text-gray-800 sm:text-3xl">
                     Who are we?

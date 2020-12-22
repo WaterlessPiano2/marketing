@@ -1,9 +1,12 @@
-
-const Intro = () => {
+type Props = {
+  pageName: string;
+};
+//className="text-base text-green-600 font-semibold tracking-wide uppercase"
+const Intro = ({ pageName }: Props) => {
   return (
-    <section className="flex-col md:flex-row flex items-center md:justify-between  mb-16 md:mb-12">
-      <h4 className="text-center md:text-left text-lg la:text-lg md:pl-4">
-        Customs Declaration System for UK traders to use after BREXIT.
+    <section className="flex-col mflex-row flex items-center md:justify-between  mb-16 md:mb-12 text-green-600 font-semibold text-6xl">
+      <h4 className="text-center md:text-left la:text-lg">
+        {pageName}
       </h4>
     </section>
   );
