@@ -6,7 +6,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <header className="bg-gradient-to-r from-green-400 to-blue-500 mb-5 sm:flex sm:justify-between sm:items-center sm:px-4 sm:py-3">
+      <header className="bg-gradient-to-r from-green-600 to-blue-600 mb-5 sm:flex sm:justify-between sm:items-center sm:px-4 sm:py-3">
         <div className="flex items-center px-4 py-3 sm:p-0 justify-between">
           <h2 className="text-2xl md:text-4xl font-bold tracking-tight md:tracking-tighter leading-tight">
             <Link href="/">
