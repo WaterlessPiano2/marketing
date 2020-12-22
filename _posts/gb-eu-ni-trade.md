@@ -1,6 +1,6 @@
 ---
-title: "How will trade work between and Great Britain and Northern Ireland or EU Member States  "
-excerpt: "This article will outline how will customs work between GB and other countries."
+title: "How trade will work between and Great Britain and Northern Ireland or EU Member States"
+excerpt: "This article will outline how customs will work between Great Britain (GB) and Northern Ireland (NI) or European Union (EU) Member States."
 coverImage: "/assets/blog/hello-world/cover.jpg"
 date: "2020-12-22"
 author:
@@ -12,7 +12,7 @@ ogImage:
 
 ## Summary
 
-This article will outline how will customs work between GB and other countries.
+This article will outline how customs will work between Great Britain (GB) and Northern Ireland (NI) or European Union (EU) Member States.
 
 ## EU-GB Imports
 
@@ -71,4 +71,4 @@ A standalone EXS declaration will be required if:
 
 • the goods are moved under transit using a Transit Accompanying Document (TAD) or Transit and Safety and Security Declaration (TSADs) – TSADs cannot be used to meet S&S requirements in GB from 1 January 2021
 
-A standalone EXS declaration will not be required if empty pallets and containers are moved out of GB not under a transport contract. 
+A standalone EXS declaration will not be required if empty pallets and containers are moved out of GB not under a transport contract.
