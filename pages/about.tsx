@@ -2,12 +2,16 @@ import Head from "next/head";
 import React from "react";
 import Container from "../components/container";
 import Layout from "../components/layout";
+import { useRouter } from "next/router";
+import getPageName from "../utils/string";
 
 const About = () => {
+  const router = useRouter();
+  let pageName = getPageName(router.pathname);
   return (
     <>
       <Head>
-        <title>Agile Import - About</title>
+        <title>{`Agile Import - ${pageName}`}</title>
       </Head>
       <Layout>
         <Container>
@@ -15,7 +19,7 @@ const About = () => {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="lg:text-center">
                 <h1 className="text-base text-green-600 font-semibold tracking-wide uppercase">
-                  About Us
+                  {pageName}
                 </h1>
                 <div className="py-6">
                   <h1 className="mt-2 text-2xl leading-8 font-extrabold tracking-tight text-gray-800 sm:text-3xl">
