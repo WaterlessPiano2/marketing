@@ -31,7 +31,20 @@ const Newsletter = () => {
     <div className="flex flex-col items-center w-full p-8 border-gray-500 border-solid border rounded-sm">
       <h2 className="text-3xl font-bold text-center">Join the newsletter!</h2>
       <p className="mt-2 font-light w-4/5 text-center leading-relaxed">
-        Some Text
+        Your email will be stored in Mailchimp database.
+      </p>
+      <span className="font-light w-4/5 text-center leading-relaxed">
+        You can read
+        <a
+          className="underline text-blue-600 hover:text-green-600"
+          href="https://mailchimp.com/legal/privacy/Read"
+        >
+          {" "}
+          the Mailchimp privacy policy here.
+        </a>{" "}
+      </span>
+      <p className="font-light w-4/5 text-center leading-relaxed">
+        We will only use your email to contact you.
       </p>
       <div className="flex w-1/2 justify-center mt-5 flex-col lg:flex-row">
         <input

@@ -1,9 +1,11 @@
 import axios from "axios";
+import { NextApiRequest, NextApiResponse } from "next";
 
-function getRequestParams(email) {
+
+function getRequestParams(email: string) {
   const API_KEY = process.env.MAILCHIMP_API_KEY;
   const LIST_ID = process.env.MAILCHIMP_LIST_ID;
-  const DATACENTER = process.env.MAILCHIMP_API_KEY.split("-")[1];
+  const DATACENTER = process.env.MAILCHIMP_API_KEY?.split("-")[1];
 
   const url = `https://${DATACENTER}.api.mailchimp.com/3.0/lists/${LIST_ID}/members`;
 
@@ -21,7 +23,7 @@ function getRequestParams(email) {
   return { url, data, headers };
 }
 
-export default async (req, res) => {
+export default async (req: NextApiRequest, res: NextApiResponse) => {
   const { email } = req.body;
   if (!email || !email.length) {
     return res.status(400).json({
