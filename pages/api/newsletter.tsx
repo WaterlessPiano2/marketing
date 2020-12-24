@@ -1,3 +1,5 @@
+import axios from "axios";
+
 function getRequestParams(email) {
   const API_KEY = process.env.MAILCHIMP_API_KEY;
   const LIST_ID = process.env.MAILCHIMP_LIST_ID;
@@ -20,26 +22,16 @@ function getRequestParams(email) {
 }
 
 export default async (req, res) => {
-  console.log("WORKS1");
   const { email } = req.body;
   if (!email || !email.length) {
-    console.log("WORKS2");
     return res.status(400).json({
       error: "Forgot your email?",
     });
   }
-
-  console.log("WORKS3");
   try {
     const { url, data, headers } = getRequestParams(email);
-
-    fetch(url, {
-      method: "POST",
-      body: JSON.stringify(data),
-      headers,
-    }).then((result) => {
-      return res.status(201).json({ error: null });
-    });
+    const response = await axios.post(url, data, { headers });
+    return res.status(201).json({ error: null });
   } catch (e) {
     return res.status(400).json({
       error:

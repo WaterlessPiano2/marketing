@@ -1,11 +1,12 @@
 import React, { useState } from "react";
+const axios = require("axios").default;
 
 const Newsletter = () => {
   const [email, setEmail] = useState("");
   const [state, setState] = useState("IDLE");
   const [errorMessage, setErrorMessage] = useState(null);
 
-  const CheckError = (response) => {
+  const CheckError = (response: Response) => {
     if (response.status >= 200 && response.status <= 299) {
       return response.json();
     } else {
@@ -13,25 +14,17 @@ const Newsletter = () => {
     }
   };
 
-  const subscribe = () => {
+  const subscribe = async () => {
     setState("LOADING");
-
-    fetch("http://localhost:3000/api/newsletter", {
-      method: "POST",
-      body: JSON.stringify({
-        email: email,
-      }),
-    })
-      .then(CheckError)
-      .then((jsonResponse) => {
-        setErrorMessage(null);
-        setState("SUCCESS");
-      })
-      .catch((e) => {
-        console.log(e);
-        setErrorMessage(e.response.data.error);
-        setState("ERROR");
-      });
+    setErrorMessage(null);
+    try {
+      const response = await axios.post("/api/newsletter", { email });
+      setState("SUCCESS");
+    } catch (e) {
+      console.log(e);
+      setErrorMessage(e.response.data.error);
+      setState("ERROR");
+    }
   };
 
   return (
