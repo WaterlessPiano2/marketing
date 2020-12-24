@@ -7,7 +7,7 @@ const Index = () => {
   return (
     <>
       <Head>
-        <title>Agile Import - Home</title>
+        <title>Agile Import</title>
       </Head>
       <Layout>
         <Container>
