@@ -1,5 +1,5 @@
 ---
-title: "How trade will work between and Great Britain and Northern Ireland or EU Member States"
+title: "How trade will work between Great Britain and Northern Ireland or EU Member States"
 excerpt: "This article will outline how customs will work between Great Britain (GB) and Northern Ireland (NI) or European Union (EU) Member States."
 coverImage: "/assets/blog/hello-world/cover.jpg"
 date: "2020-12-22"
