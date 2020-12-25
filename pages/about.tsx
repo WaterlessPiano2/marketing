@@ -69,7 +69,7 @@ const About = () => {
                     What is our goal?
                   </h1>
                   <p className="mt-2 text-base text-gray-700">
-                    Our immediate goal is to create an alternative platform for
+                    Our goal is to create an alternative platform for
                     declaring customs in the UK. By creating this, we want
                     businesses to have a better, faster, cheaper alternative
                     compared to current options.
@@ -77,13 +77,25 @@ const About = () => {
                 </div>
                 <div className="py-6">
                   <h1 className="mt-2 text-2xl leading-8 font-extrabold tracking-tight text-gray-800 sm:text-3xl">
-                    What is our mission?
+                    What is our vision?
                   </h1>
                   <p className="mt-2 text-base text-gray-700">
-                    Our mission is to help remedy the bottleneck in the UK
-                    supply chain using technology. We also want to increase
-                    transparency in the supply chain and give more control to
-                    businesses to make the best decisions for themselves.
+                    Our vision is to help identify and remove the bottlenecks in
+                    the UK supply chain using technology. We also want to
+                    increase transparency in the supply chain and give more
+                    control to businesses to make the best decisions for
+                    themselves.
+                  </p>
+                </div>
+                <div className="py-6">
+                  <h1 className="mt-2 text-2xl leading-8 font-extrabold tracking-tight text-gray-800 sm:text-3xl">
+                    What is our Mission?
+                  </h1>
+                  <p className="mt-2 text-base text-gray-700">
+                    We want to reach our vision by listening to businesses and
+                    figuring out how can we make their life easier. We are going
+                    to stay agile and adapt to changing laws and requirements of
+                    our users.
                   </p>
                 </div>
                 <div className="py-6">
