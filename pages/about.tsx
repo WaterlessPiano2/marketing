@@ -66,6 +66,28 @@ const About = () => {
                 </div>
                 <div className="py-6">
                   <h1 className="mt-2 text-2xl leading-8 font-extrabold tracking-tight text-gray-800 sm:text-3xl">
+                    What is our goal?
+                  </h1>
+                  <p className="mt-2 text-base text-gray-700">
+                    Our immediate goal is to create an alternative platform for
+                    declaring customs in the UK. By creating this, we want
+                    businesses to have a better, faster, cheaper alternative
+                    compared to current options.
+                  </p>
+                </div>
+                <div className="py-6">
+                  <h1 className="mt-2 text-2xl leading-8 font-extrabold tracking-tight text-gray-800 sm:text-3xl">
+                    What is our mission?
+                  </h1>
+                  <p className="mt-2 text-base text-gray-700">
+                    Our mission is to help remedy the bottleneck in the UK
+                    supply chain using technology. We also want to increase
+                    transparency in the supply chain and give more control to
+                    businesses to make the best decisions for themselves.
+                  </p>
+                </div>
+                <div className="py-6">
+                  <h1 className="mt-2 text-2xl leading-8 font-extrabold tracking-tight text-gray-800 sm:text-3xl">
                     About you
                   </h1>
                   <p className="mt-2 text-base text-gray-700">
