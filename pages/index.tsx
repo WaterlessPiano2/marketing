@@ -13,7 +13,7 @@ const Index = () => {
         <Container>
           <section className="text-gray-700 body-font">
             <div className="container mx-auto  flex pt-12 items-center justify-center flex-col">
-              <Intro pageName={"Merry Christmas and Happy Trade Deal!"} />
+              <Intro pageName={"A Better Way To Declare Customs to HMRC"} />
               <img
                 className="lg:w-2/6 md:w-3/6 w-5/6 mb-2 object-cover object-center rounded"
                 alt="hero"
@@ -37,17 +37,16 @@ const Index = () => {
               </h1>
               <p className="leading-relaxed text-base text-center mb-20">
                 UK has signed a "zero-tariff, zero-quota" trade deal with the
-                EU. 
-                
+                EU.
                 <br className="hidden sm:block" />
-                It means from 1st of January 2021 UK will trade with EU like
-                any other country but pay less taxes.
+                It means from 1st of January 2021 UK will trade with the EU like
+                any other country but pay fewer taxes.
                 <br className="hidden sm:block" />
                 This also means trade between GB and EU will have to be declared
-                to customs. 
+                to customs.
                 <br className="hidden sm:block" />
-                Tell us about your ideal customs declaration
-                platform, and we will create it for you!
+                Tell us about your ideal customs declaration platform, and we
+                will create it for you!
               </p>
               <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
                 <div className="p-4  lg:w-1/3 md:mb-0 mb-6 flex">
