@@ -32,21 +32,13 @@ const Index = () => {
             </div>
             <div className="container px-5 py-12 mx-auto">
               <h1 className="sm:text-3xl text-2xl font-medium title-font text-center text-gray-800 mb-2">
-                Creating a customs declaration platform for traders in the UK
+                A new customs declaration platform for traders in the UK.
                 <br className="block" />
               </h1>
               <p className="leading-relaxed text-base text-center mb-20">
-                UK has signed a "zero-tariff, zero-quota" trade deal with the
-                EU.
+               The legislation for customs in the UK is changing rapidly. 
                 <br className="hidden sm:block" />
-                It means from 1st of January 2021 UK will trade with the EU like
-                any other country but pay fewer taxes.
-                <br className="hidden sm:block" />
-                This also means trade between GB and EU will have to be declared
-                to customs.
-                <br className="hidden sm:block" />
-                Tell us about your ideal customs declaration platform, and we
-                will create it for you!
+                We want to help you submit HMRC compliant customs declarations by adapting our software acording to changing government requirements.
               </p>
               <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
                 <div className="p-4  lg:w-1/3 md:mb-0 mb-6 flex">
