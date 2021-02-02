@@ -1,6 +1,11 @@
 module.exports = {
   purge: ["./components/**/*.tsx", "./pages/**/*.tsx"],
   preserveHtmlElements: false,
+  variants: {
+    extend: {
+      opacity: ["disabled"],
+    },
+  },
   theme: {
     extend: {
       colors: {
