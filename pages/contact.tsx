@@ -58,7 +58,7 @@ const About = () => {
       <Layout>
         <Container>
           <div className="pt-12 pb-40">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="max-w-xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="lg:text-center">
                 <Intro pageName={pageName} />
               </div>
@@ -69,7 +69,7 @@ const About = () => {
               </p>
               <form
                 id="myForm"
-                className="mt-20 contact-form grid grid-cols-1 grid-rows-3 gap-4"
+                className="mt-20 max-w-4 contact-form grid grid-cols-1 grid-rows-3 gap-4"
                 onSubmit={sendEmail}
               >
                 {" "}

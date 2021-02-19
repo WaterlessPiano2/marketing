@@ -28,7 +28,7 @@ const Newsletter = () => {
   };
 
   return (
-    <div className="flex flex-col items-center w-full p-8 border-gray-500 border-solid border rounded-sm">
+    <div className="flex flex-col items-center w-full p-8 rounded-sm">
       <h2 className="text-3xl font-bold text-center">Join the newsletter!</h2>
       <p className="mt-2 font-light w-4/5 text-center leading-relaxed">
         Your email will be stored in Mailchimp database.
