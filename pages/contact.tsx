@@ -107,6 +107,7 @@ const About = () => {
                   />
                 </div>
                 <input
+                  aria-label="Send contact Form"
                   disabled={state === "Loading"}
                   className=" rounded w-1/5 bg-blue-400 disabled:opacity-50 "
                   type="submit"

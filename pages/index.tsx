@@ -19,16 +19,6 @@ const Index = () => {
                 alt="hero"
                 src="/assets/home/boat.jpg"
               />
-              <p className="text-xs text-gray-500">
-                Photo by{" "}
-                <a href="https://unsplash.com/@ronan18?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">
-                  Ronan Furuta
-                </a>{" "}
-                on{" "}
-                <a href="https://unsplash.com/s/photos/port?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">
-                  Unsplash
-                </a>
-              </p>
             </div>
             <div className="container px-5 py-12 mx-auto">
               <h1 className="sm:text-3xl text-2xl font-medium title-font text-center text-gray-800 mb-2">
@@ -36,9 +26,11 @@ const Index = () => {
                 <br className="block" />
               </h1>
               <p className="leading-relaxed text-base text-center mb-20">
-               The legislation for customs in the UK is changing rapidly. 
+                The legislation for customs in the UK is changing rapidly.
                 <br className="hidden sm:block" />
-                We want to help you submit HMRC compliant customs declarations by adapting our software acording to changing government requirements.
+                We want to help you submit HMRC compliant customs declarations
+                by adapting our software acording to changing government
+                requirements.
               </p>
               <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
                 <div className="p-4  lg:w-1/3 md:mb-0 mb-6 flex">

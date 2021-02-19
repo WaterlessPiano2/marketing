@@ -48,6 +48,7 @@ const Newsletter = () => {
       </p>
       <div className="flex w-1/2 justify-center mt-5 flex-col lg:flex-row">
         <input
+          name="email"
           className="appearance-none mb-2 lg:mb-0 w-full lg:w-2/3 border border-gray-500 rounded py-2 px-4"
           type="email"
           placeholder="Enter Email"
@@ -56,6 +57,7 @@ const Newsletter = () => {
           pattern="^[^ ]+@[^ ]+\.[a-z]{2,6}$"
         />
         <button
+          aria-label="Submit email to and subscribe"
           className={`lg:ml-2 w-full lg:w-1/3 bg-blue-400 focus:shadow-outline focus:outline-none rounded ${
             state === "LOADING" ? "button-gradient-loading bg-blue-200" : ""
           }`}
