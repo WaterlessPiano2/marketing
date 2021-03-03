@@ -69,6 +69,18 @@ const About = () => {
                 onSubmit={sendEmail}
               >
                 {" "}
+                <div className="py-2 grid grid-cols-2 invisible">
+                  <label className="block-inline font-medium text-gray-700">
+                    Name:
+                  </label>
+                  <input
+                    value="mike"
+                    type="text"
+                    name="name"
+                    id="name"
+                    className="max-h-8 p-2 block-inline sm:text-sm  border border-gray-500 rounded-md "
+                  />
+                </div>{" "}
                 <div className="py-2 grid grid-cols-2">
                   <label className="block-inline font-medium text-gray-700">
                     Email:
