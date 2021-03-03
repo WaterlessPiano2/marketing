@@ -29,24 +29,13 @@ const Newsletter = () => {
 
   return (
     <div className="flex flex-col items-center w-full p-8 rounded-sm">
-      <h2 className="text-3xl font-bold text-center">Join the newsletter!</h2>
-      <p className="mt-2 font-light w-4/5 text-center leading-relaxed">
-        Your email will be stored in Mailchimp database.
-      </p>
-      <span className="font-light w-4/5 text-center leading-relaxed">
-        You can read
-        <a
-          className="underline text-blue-600 hover:text-green-600"
-          href="https://mailchimp.com/legal/privacy/Read"
-        >
-          {" "}
-          the Mailchimp privacy policy here.
-        </a>{" "}
+      <span className="text-3xl font-bold w-4/5 text-center leading-relaxed">
+        <a href="https://www.linkedin.com/in/chadderya/">
+          Click here to contact me on LinkedIn
+        </a>
       </span>
-      <p className="font-light w-4/5 text-center leading-relaxed">
-        We will only use your email to contact you.
-      </p>
-      <div className="flex w-1/2 justify-center mt-5 flex-col lg:flex-row">
+
+      {/* <div className="flex w-1/2 justify-center mt-5 flex-col lg:flex-row">
         <input
           name="email"
           className="appearance-none mb-2 lg:mb-0 w-full lg:w-2/3 border border-gray-500 rounded py-2 px-4"
@@ -73,7 +62,7 @@ const Newsletter = () => {
       )}
       {state === "SUCCESS" && (
         <p className="w-1/2 mt-2 text-green-600">Success!</p>
-      )}
+      )} */}
     </div>
   );
 };
