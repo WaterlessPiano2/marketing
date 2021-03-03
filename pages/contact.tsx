@@ -62,28 +62,13 @@ const About = () => {
               <div className="lg:text-center">
                 <Intro pageName={pageName} />
               </div>
-              <p className=" mt-20 text-center">
-                If you would like a demo, or make a suggestion just let us know
-                by filling the form below. We will get back to you within 24
-                hours.
-              </p>
+              <p className=" mt-20 text-center">Drop us a message</p>
               <form
                 id="myForm"
                 className="mt-20 max-w-4 contact-form grid grid-cols-1 grid-rows-3 gap-4"
                 onSubmit={sendEmail}
               >
                 {" "}
-                <div className="py-2 grid grid-cols-2 ">
-                  <label className="block-inline font-medium text-gray-700">
-                    Name:
-                  </label>
-                  <input
-                    type="text"
-                    name="name"
-                    id="name"
-                    className="max-h-8 p-2 block-inline sm:text-sm  border border-gray-500 rounded-md "
-                  />
-                </div>{" "}
                 <div className="py-2 grid grid-cols-2">
                   <label className="block-inline font-medium text-gray-700">
                     Email:
