@@ -21,83 +21,17 @@ const About = () => {
               <div className="lg:text-center">
                 <Intro pageName={pageName} />
                 <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                  A better way to declare customs
+                  Software for Making Import Declarations to HMRC
                 </p>
                 <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-                  If you have been trading goods between the UK and the EU,
-                  after Brexit you will have to declare customs on all of your
-                  trade. We are here to make this easier for you.
+                  Looking for businesses who regularly import goods in to UK to
+                  work with us to design and develop the best customs
+                  declaration software for them.
                 </p>
               </div>
 
               <div className="mt-10">
                 <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
-                  <div className="flex">
-                    <div className="flex-shrink-0">
-                      <div className="flex items-center justify-center h-12 w-12 rounded-md bg-green-500 text-white">
-                        <svg
-                          className="h-6 w-6"
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                          aria-hidden="true"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="2"
-                            d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
-                          />
-                        </svg>
-                      </div>
-                    </div>
-                    <div className="ml-4">
-                      <dt className="text-lg leading-6 font-medium text-gray-900">
-                        Software as a Service (SaaS)
-                      </dt>
-                      <dd className="mt-2 text-base text-gray-500">
-                        Compared to building your software inhouse, using our
-                        SaaS is cheaper in the short and long term for you. You
-                        can offload the responsibility of implementing and
-                        maintaining the compliance and the technicality of the
-                        software to us.
-                      </dd>
-                    </div>
-                  </div>
-
-                  <div className="flex">
-                    <div className="flex-shrink-0">
-                      <div className="flex items-center justify-center h-12 w-12 rounded-md bg-green-500 text-white">
-                        <svg
-                          className="h-6 w-6"
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                          aria-hidden="true"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="2"
-                            d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"
-                          />
-                        </svg>
-                      </div>
-                    </div>
-                    <div className="ml-4">
-                      <dt className="text-lg leading-6 font-medium text-gray-900">
-                        No hidden fees
-                      </dt>
-                      <dd className="mt-2 text-base text-gray-500">
-                        For a monthly or quarterly subscription, you can use
-                        this service to make your declarations. We will let you
-                        know before you reach your agreed usage limit.
-                      </dd>
-                    </div>
-                  </div>
-
                   <div className="flex">
                     <div className="flex-shrink-0">
                       <div className="flex items-center justify-center h-12 w-12 rounded-md bg-green-500 text-white">
@@ -120,12 +54,12 @@ const About = () => {
                     </div>
                     <div className="ml-4">
                       <dt className="text-lg leading-6 font-medium text-gray-900">
-                        Instant help
+                        Get Instant help
                       </dt>
                       <dd className="mt-2 text-base text-gray-500">
-                        To create this customs declaration software, we had to
-                        be professionally trained in the process. We will make
-                        all our notes available to our customers for making.
+                        Each form field is linked to the official documentaion
+                        so, you dont have to spend time researching what to
+                        input in to this field.
                       </dd>
                     </div>
                   </div>
@@ -152,15 +86,76 @@ const About = () => {
                     </div>
                     <div className="ml-4">
                       <dt className="text-lg leading-6 font-medium text-gray-900">
-                        Audit ready
+                        Audit Logging
                       </dt>
                       <dd className="mt-2 text-base text-gray-500">
-                        In order for the HMRC to audit your customs
-                        declarations, they may need access to all of your
-                        customs declaration data for the past 10 years. We will
-                        keep this data safe for you, backed up in multiple cloud
-                        locations. If you decide to leave us later, you can
-                        export this data for your own records.
+                        Worried about your audit? Every action taken is kept in
+                        history for ten years. No more keeping rooms full of
+                        paper. Fully GDPR complient, you are able to download
+                        your data and audit log any time.
+                      </dd>
+                    </div>
+                  </div>
+                  <div className="flex">
+                    <div className="flex-shrink-0">
+                      <div className="flex items-center justify-center h-12 w-12 rounded-md bg-green-500 text-white">
+                        <svg
+                          className="h-6 w-6"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                          aria-hidden="true"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                    <div className="ml-4">
+                      <dt className="text-lg leading-6 font-medium text-gray-900">
+                        Designed by You
+                      </dt>
+                      <dd className="mt-2 text-base text-gray-500">
+                        Tell us what features are the most useful for you and we
+                        will create and maintain a software around these for
+                        you. Our goal is to save you money and time.
+                      </dd>
+                    </div>
+                  </div>
+
+                  <div className="flex">
+                    <div className="flex-shrink-0">
+                      <div className="flex items-center justify-center h-12 w-12 rounded-md bg-green-500 text-white">
+                        <svg
+                          className="h-6 w-6"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                          aria-hidden="true"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                    <div className="ml-4">
+                      <dt className="text-lg leading-6 font-medium text-gray-900">
+                        Longterm Relationship
+                      </dt>
+                      <dd className="mt-2 text-base text-gray-500">
+                        We want to work with you to identify bottlenecks and
+                        repetitive tasks in your supply chain and use technology
+                        to mitigate them.
                       </dd>
                     </div>
                   </div>

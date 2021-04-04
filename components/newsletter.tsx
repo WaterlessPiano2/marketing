@@ -29,9 +29,9 @@ const Newsletter = () => {
 
   return (
     <div className="flex flex-col items-center w-full p-8 rounded-sm">
-      <span className="text-3xl font-bold w-4/5 text-center leading-relaxed">
+      <span className="text-3xl font-bold w-4/5 text-center leading-relaxed hover:underline">
         <a href="https://www.linkedin.com/in/chadderya/">
-          Click here to contact me on LinkedIn
+          Click here to contact on Linked In
         </a>
       </span>
 

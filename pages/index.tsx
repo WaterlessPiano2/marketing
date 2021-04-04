@@ -2,35 +2,40 @@ import Container from "../components/container";
 import Intro from "../components/intro";
 import Layout from "../components/layout";
 import Head from "next/head";
+import Image from "next/image";
 
 const Index = () => {
   return (
     <>
       <Head>
-        <title>Agile Import</title>
+        <title>Agile Import - Uk Customs Declaration Software</title>
       </Head>
       <Layout>
         <Container>
           <section className="text-gray-700 body-font">
-            <div className="container mx-auto  flex pt-12 items-center justify-center flex-col">
-              <Intro pageName={"A Better Way To Declare Customs to HMRC"} />
-              <img
-                className="lg:w-2/6 md:w-3/6 w-5/6 mb-2 object-cover object-center rounded"
-                alt="hero"
+            <div className="container mx-auto flex pt-2 items-center justify-center flex-col">
+              <Intro
+                pageName={"Customs Declarations Software for Importers in UK"}
+              />
+              <Image
+                className=" w-5/6 mb-2 object-cover object-center rounded"
                 src="/assets/home/boat.jpg"
+                alt="Picture of the author"
+                layout="intrinsic"
+                width={1200}
+                height={800}
               />
             </div>
             <div className="container px-5 py-12 mx-auto">
               <h1 className="sm:text-3xl text-2xl font-medium title-font text-center text-gray-800 mb-2">
-                A new customs declaration platform for traders in the UK.
+                Take control of your customs
                 <br className="block" />
               </h1>
               <p className="leading-relaxed text-base text-center mb-20">
-                The legislation for customs in the UK is changing rapidly.
-                <br className="hidden sm:block" />
-                We want to help you submit HMRC compliant customs declarations
-                by adapting our software acording to changing government
-                requirements.
+                Brand new software to help declare your Import customs to HMRC.
+                <br className="block" />
+                Be one of four businesses that will help us design the most
+                useful features, so you can save money and time.
               </p>
               <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
                 <div className="p-4  lg:w-1/3 md:mb-0 mb-6 flex">
@@ -49,14 +54,14 @@ const Index = () => {
                   </div>
                   <div className="flex-grow pl-6">
                     <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
-                      Submissions and Notifications
+                      Declarations and Notifications
                     </h2>
                     <p className="leading-relaxed text-base">
-                      Enter the required details to declare your shipments to
-                      HMRC's new Customs Declaration Service (CDS).
-                      <br className="hidden sm:block" />
-                      Get notifications from HMRC, regarding the declarations
-                      you have made.
+                      Enter details of your shipments to HMRC's new Customs
+                      Declaration Service through this software.
+                      <br className="block" />
+                      Get notifications abot the status of your goods at the
+                      border.
                     </p>
                   </div>
                 </div>
@@ -78,14 +83,14 @@ const Index = () => {
                   </div>
                   <div className="flex-grow pl-6">
                     <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
-                      Constant Availability
+                      Always Available
                     </h2>
                     <p className="leading-relaxed text-base">
-                      Store all your customs information in our cloud database,
-                      that is available to you wherever you are.
-                      <br className="hidden sm:block" />
-                      Use your laptop, tablet or smartphone to access this
-                      platform.
+                      Store your declarations data securly backed up in the cloud, so it is available
+                      wherever you are.
+                      <br className="block" />
+                      Use laptop, tablet or smartphone to make declarations and
+                      check their status.
                     </p>
                   </div>
                 </div>
@@ -109,11 +114,11 @@ const Index = () => {
                       Accuracy and Speed
                     </h2>
                     <p className="leading-relaxed text-base">
-                      A clever system that will warn its users of potential
-                      mistakes, before the declaration is submitted.
-                      <br className="hidden sm:block" />
-                      Reusing previously submitted declarations to save time and
-                      be consistent.
+                      Create declaration templates with all the data that
+                      doesn't change.
+                      <br className="block" />
+                      Next time you make a similar import, use the template to
+                      pre-populate your declaration.
                     </p>
                   </div>
                 </div>

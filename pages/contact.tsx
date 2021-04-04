@@ -57,51 +57,63 @@ const About = () => {
       </Head>
       <Layout>
         <Container>
-          <div className="pt-12 pb-40">
+          <div className="">
             <div className="max-w-xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="lg:text-center">
                 <Intro pageName={pageName} />
               </div>
-              <p className=" mt-20 text-center">Drop us a message</p>
+              <p className="text-center">
+                Drop us a message, we will get back to you ASAP!
+              </p>
               <form
                 id="myForm"
-                className="mt-20 max-w-4 contact-form grid grid-cols-1 grid-rows-3 gap-4"
+                className="max-w-4 contact-form grid grid-cols-1 grid-rows-3 gap-4"
                 onSubmit={sendEmail}
               >
                 {" "}
-                <div className="py-2 grid grid-cols-2 invisible">
-                  <label className="block-inline font-medium text-gray-700">
+                <div className=" invisible">
+                  <label className="hidden font-medium text-gray-700">
                     Name:
                   </label>
                   <input
-                    value="mike"
+                    value="Name"
                     type="text"
                     name="name"
                     id="name"
-                    className="max-h-8 p-2 block-inline sm:text-sm  border border-gray-500 rounded-md "
+                    className="p-2 hidden sm:text-sm  border border-gray-500 rounded-md "
                   />
                 </div>{" "}
-                <div className="py-2 grid grid-cols-2">
-                  <label className="block-inline font-medium text-gray-700">
-                    Email:
+                <div>
+                  <label
+                    htmlFor="email"
+                    className="block text-sm font-medium text-gray-700"
+                  >
+                    Email
                   </label>
-                  <input
-                    type="email"
-                    name="email"
-                    id="email"
-                    className="max-h-8 p-2 block-inline sm:text-sm border border-gray-500 rounded-md "
-                  />
-                </div>{" "}
-                <div className="py-2 grid grid-cols-2">
-                  <label className="block-inline font-medium text-gray-700">
+                  <div className="mt-1 relative rounded-md shadow-sm">
+                    <input
+                      name="email"
+                      id="email"
+                      type="email"
+                      className="focus:ring-indigo-500 focus:border-indigo-500 block w-full pl-2 pr-12 sm:text-sm border-gray-300 rounded-md"
+                    />
+                  </div>
+                </div>
+                <div>
+                  <label
+                    htmlFor="message"
+                    className="block text-sm font-medium text-gray-700"
+                  >
                     Messsage:
                   </label>
-                  <textarea
-                    rows={4}
-                    name="message"
-                    id="message"
-                    className="p-2 block-inline sm:text-sm border border-gray-500 rounded-md "
-                  />
+                  <div className="mt-1 relative rounded-md shadow-sm">
+                    <textarea
+                      rows={4}
+                      name="message"
+                      id="message"
+                      className="focus:ring-indigo-500 focus:border-indigo-500 block w-full pl-2 pr-12 sm:text-sm border-gray-300 rounded-md"
+                    />
+                  </div>
                 </div>
                 <input
                   aria-label="Send contact Form"

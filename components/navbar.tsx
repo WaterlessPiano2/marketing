@@ -12,7 +12,7 @@ const Navbar = () => {
             <Link aria-label="Go back to Home Page" href="/">
               <a>
                 <div className="font-bold tracking-tighter leading-tight md:pr-8">
-                  <span className="text-gray-100">Agile import</span>
+                  <span className="text-gray-100">Agile Import</span>
                 </div>
               </a>
             </Link>

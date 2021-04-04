@@ -1,4 +1,5 @@
 module.exports = {
+  plugins: [require("@tailwindcss/forms")],
   purge: ["./components/**/*.tsx", "./pages/**/*.tsx"],
   preserveHtmlElements: false,
   variants: {
