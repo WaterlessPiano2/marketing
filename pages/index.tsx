@@ -13,29 +13,30 @@ const Index = () => {
       <Layout>
         <Container>
           <section className="text-gray-700 body-font">
-            <div className="container mx-auto flex pt-2 items-center justify-center flex-col">
-              <Intro
-                pageName={"Customs Declarations Software for Importers in UK"}
-              />
+            <div className="container mx-auto flex pt-2 items-center justify-center flex-row">
+              <div className="w-2/6 mr-20">
+                <Intro pageName={"Agile Customs"} />
+                <p className="leading-relaxed text-base text-center">
+                  Lets create your ideal customs declaration software together
+                </p>
+              </div>
               <Image
-                className=" w-5/6 mb-2 object-cover object-center rounded"
+                className="inline w-2/6 mb-2 object-cover object-center rounded"
                 src="/assets/home/boat.jpg"
-                alt="Picture of the author"
-                layout="intrinsic"
-                width={1200}
-                height={800}
+                alt="Hero Image"
+                width={500}
+                height={400}
               />
             </div>
             <div className="container px-5 py-12 mx-auto">
               <h1 className="sm:text-3xl text-2xl font-medium title-font text-center text-gray-800 mb-2">
-                Take control of your customs
+                Help us create the ideal customs declatation software for you
                 <br className="block" />
               </h1>
               <p className="leading-relaxed text-base text-center mb-20">
-                Brand new software to help declare your Import customs to HMRC.
+                Tell us about your past experiences declaring customs.
                 <br className="block" />
-                Be one of four businesses that will help us design the most
-                useful features, so you can save money and time.
+                So we can design the best solutions tailored to you.
               </p>
               <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
                 <div className="p-4  lg:w-1/3 md:mb-0 mb-6 flex">
@@ -57,11 +58,8 @@ const Index = () => {
                       Declarations and Notifications
                     </h2>
                     <p className="leading-relaxed text-base">
-                      Enter details of your shipments to HMRC's new Customs
-                      Declaration Service through this software.
-                      <br className="block" />
-                      Get notifications abot the status of your goods at the
-                      border.
+                      Submit import declarations to HMRC. Stay informed about
+                      your goods at the border.
                     </p>
                   </div>
                 </div>
@@ -86,11 +84,8 @@ const Index = () => {
                       Always Available
                     </h2>
                     <p className="leading-relaxed text-base">
-                      Store your declarations data securly backed up in the cloud, so it is available
-                      wherever you are.
-                      <br className="block" />
-                      Use laptop, tablet or smartphone to make declarations and
-                      check their status.
+                      Store your declarations data securely backed up in the
+                      cloud, so it is always available to you, on any device.
                     </p>
                   </div>
                 </div>
@@ -111,14 +106,11 @@ const Index = () => {
                   </div>
                   <div className="flex-grow pl-6">
                     <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
-                      Accuracy and Speed
+                      Accuracte and Fast
                     </h2>
                     <p className="leading-relaxed text-base">
-                      Create declaration templates with all the data that
-                      doesn't change.
-                      <br className="block" />
-                      Next time you make a similar import, use the template to
-                      pre-populate your declaration.
+                      Pre-populate customs forms with templates to save time and
+                      reduce errors.
                     </p>
                   </div>
                 </div>
