@@ -60,13 +60,13 @@ const Navbar = () => {
           >
             About
           </a>
-          <a
+          {/* <a
             aria-label="Go to Blog Page"
             href="/blog"
             className="mt-1 block px-2 py-1 text-white font-semibold rounded sm:hover:bg-green-500 hover:bg-blue-500 sm:mt-0 sm:ml-2"
           >
             Blog
-          </a>{" "}
+          </a>{" "} */}
           <a
             aria-label="Go to contacts Page"
             href="/contact"

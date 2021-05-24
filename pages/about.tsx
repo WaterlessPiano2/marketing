@@ -26,10 +26,10 @@ const About = () => {
                     Who are we?
                   </h1>
                   <p className="mt-2 text-base text-gray-700">
-                    We are a tech entrepreneurs with software development and AI
+                    We are entrepreneurs with software development and AI
                     background. A year ago we found out about the shortage of
                     customs entry clerks in the UK. So we decided to learn more
-                    about this field and see if we can use our tech experience
+                    about customs and see if we can use our tech experience
                     to help solve this problem.
                   </p>
                 </div>
@@ -38,17 +38,15 @@ const About = () => {
                     What matters to us?
                   </h1>
                   <p className="mt-2 text-base text-gray-700">
-                    The main reason we started this project was the realisation
-                    never required customs before. After BREXIT all of these
-                    imports need to be declared to customs. This means extra
-                    work required that is time-consuming, expensive and
-                    complicated. This directly reflect on the prices and
-                    availability of the goods that we may be using every day. So
-                    we thought, if we could create a platform to declare
-                    customs, which is time and money saving for businesses, then
-                    hopefully we can reduce the cost of the goods in the
-                    shelves. After we get the import customs software working, we will be
-                    making the export customs software.
+                    The main reason we started this project is because all of the
+                    UK's trade with the EU will have to be declared to customs.
+                    This means extra work required from traders to continue
+                    doing their normal business. This directly reflect on the
+                    prices and availability of the goods that we may be using
+                    every day. So we thought, if we could create a platform to
+                    declare customs, which is time and money saving for
+                    businesses, then hopefully we can reduce the impact of
+                    Brexit on UK traders.
                   </p>
                 </div>
                 <div className="py-6">
@@ -59,11 +57,12 @@ const About = () => {
                     We have learned how the customs in the UK works. We have
                     been using the information from HMRC to create a software
                     for declaring customs. We have been speaking to UK traders
-                    to understand how they work. We have been creating the
-                    "under the hood" part of the software for data storage and
-                    HMRC integration. We are now ready to collabrate with our
-                    potential users to design features of the software perfectly
-                    suited for them.
+                    and freight forwarder to understand how they declare
+                    customs. We have been creating the "under the hood" part of
+                    the software for data storage and HMRC integration. We are
+                    now ready to collabrate with our potential users to design
+                    features of the software, to make it perfectly suited for
+                    them.
                   </p>
                 </div>
                 <div className="py-6">
@@ -73,7 +72,7 @@ const About = () => {
                   <p className="mt-2 text-base text-gray-700">
                     Our goal is to create an alternative platform for declaring
                     customs in the UK. By creating this, we want businesses to
-                    have a better, faster, cheaper alternative compared to
+                    have a better, faster and cheaper alternative compared to
                     current options.
                   </p>
                 </div>
@@ -105,11 +104,11 @@ const About = () => {
                     About you
                   </h1>
                   <p className="mt-2 text-base text-gray-700">
-                    We are looking to help UK businesses who trade or
-                    facilitates the trade of goods between the UK and the EU.
-                    Our expertise lies in tech rather than freight and customs.
-                    So we are looking to work with businesses who can fill our
-                    knowledge gap and happy for us to do the same for them.
+                    We are looking to help UK businesses who regularly trade or
+                    facilitate the trade of goods in to the UK . The
+                    ideal business would have inhouse freight expertise, so they
+                    could work with us designing the software that they will be
+                    using.
                   </p>
                 </div>
               </div>

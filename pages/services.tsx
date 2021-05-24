@@ -20,11 +20,11 @@ const About = () => {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="lg:text-center">
                 <Intro pageName={pageName} />
-                <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                <p className="mt-2 text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
                   Software for Making Import Declarations to HMRC
                 </p>
                 <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-                  Looking for businesses who regularly import goods in to UK to
+                  We are looking for businesses who regularly import goods in to UK, to
                   work with us to design and develop the best customs
                   declaration software for them.
                 </p>
@@ -59,7 +59,7 @@ const About = () => {
                       <dd className="mt-2 text-base text-gray-500">
                         Each form field is linked to the official documentaion
                         so, you dont have to spend time researching what to
-                        input in to this field.
+                        input in to ambiguous fields.
                       </dd>
                     </div>
                   </div>
@@ -121,9 +121,9 @@ const About = () => {
                         Designed by You
                       </dt>
                       <dd className="mt-2 text-base text-gray-500">
-                        Tell us what features are the most useful for you and we
+                        Tell us what features are the most useful and we
                         will create and maintain a software around these for
-                        you. Our goal is to save you money and time.
+                        you. Our goal is to save you money and time, while ensuring your goods spend least amoutnt of time possible at the border.
                       </dd>
                     </div>
                   </div>
@@ -155,7 +155,7 @@ const About = () => {
                       <dd className="mt-2 text-base text-gray-500">
                         We want to work with you to identify bottlenecks and
                         repetitive tasks in your supply chain and use technology
-                        to mitigate them.
+                        to mitigate them over long term.
                       </dd>
                     </div>
                   </div>

@@ -63,7 +63,7 @@ const About = () => {
                 <Intro pageName={pageName} />
               </div>
               <p className="text-center">
-                Drop us a message, we will get back to you ASAP!
+                Drop us a message and we will get back to you ASAP!
               </p>
               <form
                 id="myForm"
