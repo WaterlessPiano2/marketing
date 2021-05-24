@@ -17,7 +17,7 @@ const Index = () => {
               <div className="w-2/6 mr-20">
                 <Intro pageName={"Agile Customs"} />
                 <p className="leading-relaxed text-base text-center">
-                  Lets create your ideal customs declaration software together
+                  Lets create your ideal customs declaration software together!
                 </p>
               </div>
               <Image
@@ -34,9 +34,8 @@ const Index = () => {
                 <br className="block" />
               </h1>
               <p className="leading-relaxed text-base text-center mb-20">
-                Tell us about your past experiences declaring customs.
-                <br className="block" />
-                So we can design the best solutions tailored to you.
+                Tell us about your past experiences declaring customs, so we can
+                design the best solution tailored to you.
               </p>
               <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
                 <div className="p-4  lg:w-1/3 md:mb-0 mb-6 flex">
@@ -58,7 +57,7 @@ const Index = () => {
                       Declarations and Notifications
                     </h2>
                     <p className="leading-relaxed text-base">
-                      Submit import declarations to HMRC. Stay informed about
+                      Submit your import declarations to HMRC. Stay informed about
                       your goods at the border.
                     </p>
                   </div>
@@ -85,7 +84,7 @@ const Index = () => {
                     </h2>
                     <p className="leading-relaxed text-base">
                       Store your declarations data securely backed up in the
-                      cloud, so it is always available to you, on any device.
+                      cloud, so they are always available to you, on any device.
                     </p>
                   </div>
                 </div>
