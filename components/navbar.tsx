@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React, { useState } from "react";
+import Demo from "./demo";
 
 const Navbar = () => {
   const [isOpen, setisOpen] = useState(false);
@@ -60,13 +61,6 @@ const Navbar = () => {
           >
             About
           </a>
-          {/* <a
-            aria-label="Go to Blog Page"
-            href="/blog"
-            className="mt-1 block px-2 py-1 text-white font-semibold rounded sm:hover:bg-green-500 hover:bg-blue-500 sm:mt-0 sm:ml-2"
-          >
-            Blog
-          </a>{" "} */}
           <a
             aria-label="Go to contacts Page"
             href="/contact"
@@ -74,6 +68,13 @@ const Navbar = () => {
           >
             Contact
           </a>
+          <a
+            aria-label="Go to Blog Page"
+            href="https://calendly.com/agile-import/introduction-and-demo"
+            className="mt-1 block px-2 py-1 text-white font-semibold rounded bg-green-500 sm:hover:bg-green-500 hover:bg-blue-500 sm:mt-0 sm:ml-2"
+          >
+            Book a Demo
+          </a>{" "}
         </nav>
       </header>
     </div>

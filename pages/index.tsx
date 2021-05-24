@@ -1,5 +1,6 @@
 import Container from "../components/container";
 import Intro from "../components/intro";
+import Demo from "../components/demo";
 import Layout from "../components/layout";
 import Head from "next/head";
 import Image from "next/image";
@@ -13,12 +14,15 @@ const Index = () => {
       <Layout>
         <Container>
           <section className="text-gray-700 body-font">
-            <div className="container mx-auto flex pt-2 items-center justify-center flex-row">
-              <div className="w-2/6 mr-20">
+            <div className="container mx-auto flex pt-2 items-center justify-center sm:flex-row flex-col">
+              <div className="sm:w-2/6 sm:mr-20">
                 <Intro pageName={"Agile Customs"} />
                 <p className="leading-relaxed text-base text-center">
                   Lets create your ideal customs declaration software together!
                 </p>
+                <div className=" mx-auto mb-7 flex pt-2 items-center justify-center ">
+                  <Demo />
+                </div>
               </div>
               <Image
                 className="inline w-2/6 mb-2 object-cover object-center rounded"
@@ -57,8 +61,8 @@ const Index = () => {
                       Declarations and Notifications
                     </h2>
                     <p className="leading-relaxed text-base">
-                      Submit your import declarations to HMRC. Stay informed about
-                      your goods at the border.
+                      Submit your import declarations to HMRC. Stay informed
+                      about your goods at the border.
                     </p>
                   </div>
                 </div>
